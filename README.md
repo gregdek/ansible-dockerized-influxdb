@@ -22,3 +22,5 @@ Install
 
 1. git clone this repo (in future, ansible-galaxy install this.galaxy.role)
 2. vagrant up
+3. in your browser, goto localhost:8083
+4. ??? (lol)
