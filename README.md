@@ -1,7 +1,7 @@
-Docker InfluxDB
-===============
+InfluxDB (Dockerized)
+=====================
 
-Sample Galaxy role, forked from blixtra, to show an example of how Ansible+Atomic might work together.
+Sample Galaxy role, forked from blixtra, to show an example of how Ansible+Atomic might work together with a properly Dockerized role.
 
 Simple ansible role for dockerized InfluxDB. Used to set up a single instance of InfluxDB or a cluster using the SEEDS environment variable.
 
@@ -17,9 +17,8 @@ protobuf_port: 8099
 docker_api_version: 1.15
 ```
 
-Dependencies
-============
+Install
+=======
 
-Requires Ansible 1.8 as it uses new Docker module functionality.
-
-Needs Docker to be running on remote system.
+1. git clone this repo (in future, ansible-galaxy install this.galaxy.role)
+2. vagrant up
