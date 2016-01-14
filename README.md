@@ -14,7 +14,7 @@ http_port: 8086
 https_port: 8084
 raft_port: 8090
 protobuf_port: 8099
-docker_api_version: 1.12
+docker_api_version: 1.15
 ```
 
 Dependencies
