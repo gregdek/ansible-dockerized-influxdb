@@ -1,8 +1,7 @@
 ---
-- name         : InfluxDB configuration
-  hosts        : all
+- hosts        : all
   gather_facts : yes
   sudo         : True
 
   roles:
-    - influxdb
+    - ansible-dockerized-influxdb
