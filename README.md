@@ -1,6 +1,8 @@
 Docker InfluxDB
 ===============
 
+Sample Galaxy role, forked from blixtra, to show an example of how Ansible+Atomic might work together.
+
 Simple ansible role for dockerized InfluxDB. Used to set up a single instance of InfluxDB or a cluster using the SEEDS environment variable.
 
 Variables
